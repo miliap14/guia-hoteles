@@ -7,13 +7,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="./css/main.css">
     <title>Guía Hoteles</title>
   </head>
   <body>
     <!-- <h1>Hello, world!</h1> -->
     <div class="jumbotron">
-      <h1 class="display-4">Guía Hoteles</h1>
+      <h1 class="display-4 text-center title">Guía Hoteles</h1>
     </div>
     <div class="container">
       
@@ -30,21 +30,105 @@
           <h1>Actualización constante</h1>
           <p>Tu conformidad es nuestra prioridad, por eso siempre tenemos la última información para que vos no tengas ninguna sorpresa</p>
         </div>
-      </div>      
-    </div>
-    <h1 class="text-center">Nuestros hoteles</h1>
-      <div class="row">        
-        <div class="col-md-2">Casic</div>
-        <div class="col-md-2">Sheraton</div>
-        <div class="col-md-2">Campo Alegre</div>
-        <div class="col-md-2">Maikel</div>
-        <div class="col-md-2">España</div>
-        <div class="col-md-2">Ansenuza</div>
+      </div>  
+      
+      <hr/>
+      
+      <h1 class="text-center">Nuestros hoteles</h1>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card card-hotel">
+            <div class="card-body">
+              <h5 class="card-title">Hotel Miramar</h5>
+              <p class="card-text">Venga a conocer nuestras excelentes instalaciones</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card card-hotel">
+            <div class="card-body">
+              <h5 class="card-title">Hotel Córdoba</h5>
+              <p class="card-text">Venga a conocer nuestras excelentes instalaciones</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card card-hotel">
+            <div class="card-body">
+              <h5 class="card-title">Hotel Rosario</h5>
+              <p class="card-text">Venga a conocer nuestras excelentes instalaciones</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
       </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card card-hotel">
+            <div class="card-body">
+              <h5 class="card-title">Hotel Formosa</h5>
+              <p class="card-text">Venga a conocer nuestras excelentes instalaciones</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card card-hotel">
+            <div class="card-body">
+              <h5 class="card-title">Hotel San Juan</h5>
+              <p class="card-text">Venga a conocer nuestras excelentes instalaciones</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card card-hotel">
+            <div class="card-body">
+              <h5 class="card-title">Hotel Mendoza</h5>
+              <p class="card-text">Venga a conocer nuestras excelentes instalaciones</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <footer class="footer">
+        <div class="row">
+          <div class="col-sm-4 d-flex flex-column">
+            <a href="https://www.facebook.com">Facebook</a>
+            <a href="https://www.google.com">Google+</a>
+            <a href="https://www.intstagram.com">Instagram</a>
+          </div>
+          <div class="col-sm-4">
+            <address>
+              <h3>Casa central</h3>
+              <p>Tucuman 834, CABA, Argentina</p>
+              <p>+5493515678898</p>
+              <p>info@guiahoteles.com</p>              
+            </address>
+          </div>
+          <div class="col-sm-4 d-flex flex-column align-items-end">
+            <a href="#">Acerca de Nosotros</a>
+            <a href="#">Consulta tu reserva</a>
+            <a href="#">Bases y condiciones</a>
+          </div>
+        </div>
+    </footer>
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="./node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>    
   </body>
 </html>
